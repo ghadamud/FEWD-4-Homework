@@ -1,0 +1,12 @@
+body{background-color: bisque;}
+.footer-block-container{ font-family: 'Courier New', Courier, monospace; font-size: xx-small;}
+.footer-container{padding: 4px; margin-top: 40px;}
+.hp-issue-index {text-decoration: underline; color: darkred;}
+.hp-issue-article-list{color: cornflowerblue; font-style: italic;}
+.hp-news-date{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: italic;}
+.hp-news-block-container{margin: 0px; padding: 60px;}
+.hp-news-category{ clear: right; margin: 10px; position: initial; color: peru;}
+.hp-news-title{color: lightcoral; text-decoration: overline; font-style: unset;}
+.pic1{float: left; height: 250px; width: 270px; border-style: groove; border-color: royalblue;}
+.pic2{float: left; width: 300px; height:250px ;}
+.pic3{float:left; border: double; border-color: sienna; height: 250px; width: 250px;}
