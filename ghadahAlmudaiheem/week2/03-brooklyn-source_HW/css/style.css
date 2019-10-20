@@ -1,0 +1,58 @@
+h1{
+	font-family: 'Times New Roman', Times, serif;
+	color: darkgray;
+
+}
+body{
+	margin: 40px;
+	
+}
+h3{
+	font-family: 'Times New Roman', Times, serif;
+	color: #656565;
+	text-transform: capitalize;
+}
+p{
+	font-family: 'Times New Roman', Times, serif;
+	size: 12px;
+	margin-right: 250px;
+
+}
+.date{
+	color: dodgerblue;
+}
+
+a:visited{ 
+	color: blue;
+}
+a:hover{
+	color: #20222a;
+}
+a:before{
+	color: blue;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	
+}
+.four{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	margin: 5px;
+	border: solid grey;
+}
+footer{
+	display: block;
+	font-family: 'Times New Roman', Times, serif;
+	color: #656565;
+	size: 12px;
+	margin-top: 10px;
+}
+
+
+

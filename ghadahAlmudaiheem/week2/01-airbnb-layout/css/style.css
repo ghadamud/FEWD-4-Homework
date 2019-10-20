@@ -1,0 +1,110 @@
+body{
+  background-color: #F0F0E1;
+}
+.container{
+  display: flex;
+ justify-content: center;
+ align-items: baseline;
+ text-align: center;
+ flex-direction: row;
+  
+}
+p{
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.item1{
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+.text1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  color: grey;
+ 
+}
+.text2{
+  
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+.sf{
+  color: white;
+  position: absolute;
+  left: 27%;
+  top: 25%;
+  font-weight: bolder;
+  font-size:20px;
+}
+.ny{
+  color: white;
+  position: absolute;
+  left: 47%;
+  top: 25%;
+  font-weight: bolder;
+  font-size:20px;
+}
+.ldn{
+  color: white;
+  position: absolute;
+  left: 65%;
+  top: 25%;
+  font-weight: bolder;
+  font-size:20px;
+}
+.np{
+  color: white;
+  position: absolute;
+  left:31%;
+  top: 80%;
+  font-weight: bolder;
+  font-size:20px;
+}
+.sn{
+  color: white;
+  position: absolute;
+  left:47%;
+  top: 80%;
+  font-weight: bolder;
+  font-size:20px;
+}
+.sf2{
+  color: white;
+  position: absolute;
+  left:62%;
+  top: 80%;
+  font-weight: bolder;
+  font-size:20px;
+}
+button{
+  border: solid grey 1px;
+  padding: 4px;
+  margin: 5px;
+  width: 150px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  color: grey;
+  text-align: center;
+  margin-left: 43%;
+
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+

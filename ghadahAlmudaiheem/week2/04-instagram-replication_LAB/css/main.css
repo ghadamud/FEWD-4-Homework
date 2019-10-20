@@ -1,0 +1,172 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  /*text-align: end;*/
+  
+}
+.box{
+  display: block;
+  margin: 0px;
+  border: #e1e1e1;
+ text-align: end;
+ 
+
+}
+.brand-name{
+  position: absolute;
+  display: inline-block;
+  top: 90px;
+  right: 350px;
+}
+
+
+.first-half{
+  background-color: #355e82;
+  /*text-align: end;*/
+}
+.frame{
+  position: absolute;
+  left: 46%;
+  margin-top: 15%;
+  
+}
+
+.second-half{
+  background-color: white;
+  
+}
+/*come back to this*/
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.copyright{
+  color: #666666;
+  font-weight: bolder;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+ color: #06365f;
+ font-weight: 500;
+ 
+}
+
+.pics-main{
+  margin-left: 50%;
+}
+.pic-1{
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: -30px;
+  
+}
+.pic-2{
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 20px;
+  
+}
+.pic-section{
+  display: flex;
+  text-align: right;
+  position: fixed;
+  
+}
+.phone{
+  position: absolute;
+  float: left;
+  margin-left: 250px;
+  margin-top: -180px;
+  height: 450px;
+  
+}
+h2{
+ position: absolute ;
+  display: inline-block;
+  text-align: left;
+  top: 31%;
+  left: 48%;
+  width: 250px;
+  z-index: 1;
+  color: #064166;
+ /* background-image: url(images/frame-copy.jpg);*/
+  /*text could not be placed on top of frame*/
+}
+.text1{
+  display: inline-block;
+  text-align: left;
+  margin-right: 150px;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  width: 35%;
+  
+}
+.text2{
+  font-weight: bolder;
+
+}
+.text3{
+ display: block;
+ margin-top: 8px;
+ 
+}
+
+.btn_login {
+  border: none;
+  padding: 5px;
+  display: inline-block;
+  margin-left: 78%;
+  vertical-align: top;
+  margin-top: 8%;
+  margin-bottom: 10%;
+
+  background: #7390a9;
+  background-image: -webkit-linear-gradient(top, #7390a9, #355e82);
+  background-image: -moz-linear-gradient(top, #7390a9, #355e82);
+  background-image: -ms-linear-gradient(top, #7390a9, #355e82);
+  background-image: -o-linear-gradient(top, #7390a9, #355e82);
+  background-image: linear-gradient(to bottom, #7390a9, #355e82);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+ /* padding: 10px 20px 10px 20px;*/
+  text-decoration: none;
+
+}
+
+.btn_login:hover {
+  background: #064166;
+  text-decoration: none;
+}
+
+.btn_login::before {
+  content: url("../images/home.png");
+  display: inline-block;
+}
+
+.btn_login span {
+  display: inline-block;
+  font-weight: bold;
+  color: #e1e1e1;
+  padding: 5px .5em;
+  vertical-align: top;
+
+}
