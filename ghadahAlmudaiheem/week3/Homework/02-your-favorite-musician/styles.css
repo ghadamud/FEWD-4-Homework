@@ -1,0 +1,77 @@
+body{
+   background-color: #756B63;
+
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 550fr 500fr 200fr;
+    gap: 10px 20px;
+  
+}
+.grid-part1{
+    
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-image: url(bazzi-background.jpg);
+   
+   
+}
+.grid-part2{
+    /*background-image: url(original.jpg);*/
+    width: 30%;
+    height: 150%;
+    margin-left: 20%;
+}
+.img4{
+    width: 150px;
+    height: 400px;
+    position: absolute;
+    opacity: 0.3;
+    z-index: -1;
+}
+.grid-part3{
+    
+    margin-top: 10%;
+    
+}
+.img1{
+    width: 500px;
+ height: auto;
+}
+.grid-part4{
+    grid-row: 2/3;
+    grid-column: 3/3;
+}
+.img2{
+ width: 300px;
+ height: auto;
+ margin-top: 3%;
+}
+.grid-part5{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 30%;
+    font-family: 'Bungee Shade', cursive;
+    color: bisque;
+    
+}
+.grid-part6{
+
+}
+.img3{
+ width: 400px;
+ height: auto;
+ margin-top: -15%;
+}
+.grid-part7{
+    font-size: 20px;
+}
+.font-change{
+    display: block;
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: 'Arima Madurai', cursive;
+}
