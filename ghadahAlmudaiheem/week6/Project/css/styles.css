@@ -1,0 +1,242 @@
+body{
+    margin: 0%;
+}
+.firstDiv{
+    /* background-color: #2D4262; */
+    
+    padding-top: 3%;
+    
+
+}
+.backgroundPic{
+  /* background-image: url("../img/Canva - White Green and Orange Wooden Plank.jpg");   */
+  background-image: url("../img/overlay.png"), url("../img/header.svg"),linear-gradient(130deg,#D19684 10%, #D1A484 30%, #FFE5DB 80%);
+  /* filter: opacity(0.5); */
+  /* border-bottom: solid white 1px; */
+
+}
+ul li{
+    list-style: none;
+    margin-right: 10%;
+    color: white ;
+    font-size: large;
+    padding: 3px 15px;
+  border: solid white 1px;
+  border-radius: 3%;
+    
+}
+.list1{
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 1%;
+ font-family: 'Open Sans', sans-serif;
+ font-size: medium;
+ /* border: #89BAD9 solid;
+ border-radius: 30%;
+ width: 800px; */
+
+
+}
+.speechInfo {
+    font-style: oblique;
+    text-align: justify;
+    font-size:20px;
+    font-weight: bold;
+ position: relative;
+ 
+ 
+}
+.aboutAudio{
+   color: white; 
+}
+.logo{
+    width: 100px;
+    height: auto;
+  position: absolute; 
+  top: 1%;
+  left: 2%;
+  
+}
+.secondDiv{
+    /* background-color: #73605B;  */
+   
+    /* background-repeat: no-repeat;
+    background-position-x: right; */
+    /* background-color: #FFF9EF; */
+    /* padding: 8%; */
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.thirdDiv{
+    background-image: url("../img/image-wrapper.svg")/*#D1A484 D09683;  */;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: minmax(150px, 1fr);
+    overflow: scroll;
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px;
+    
+
+}
+.img1{
+    /* width: 350px;
+    height: 250px;; */
+    padding: 2%;
+   /* grid-template-rows: 1/2; */
+   margin-left: -2%;
+   border-radius: 10%;
+}
+.img2{
+    /* width: 200px;
+    height: auto; */
+    padding: 2%;
+    /* grid-template-rows: 1/2; */
+    /* grid-template-columns: 2/2; */
+    border-radius: 10%;
+}
+.img3{
+    /* width: 200px;
+    height: auto; */
+    border-radius: 10%;
+}
+footer{
+    /* background-color: #363237; */
+    background-image: url("../img/image-wrapper.svg");
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: smaller;
+}
+.aboutSpeech{
+padding: 10%;
+/* background-image: url("../img/boy-speech-letters.png"); */
+
+}
+.introSection{
+    /* background-image: url("../img/boy-speech-letters.png");   */
+    /* background-repeat: no-repeat;
+    background-position-x: right; */
+    /* background-color: #FFF9EF; */
+    border-top: solid white 1px;
+    padding-top: 6%;
+    padding-bottom: 10%;
+    padding-left: 6%;
+    padding-right: 3%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.boySpeech{
+    height: 390px;
+    position: absolute;
+    top: 19%;
+    right: 0%;
+  opacity: 0.2;
+ 
+}
+.speechPic{
+   
+    opacity: 0.4;
+    margin-top: -25%;
+    display: flex;
+    justify-content: right;
+}
+.vid1{
+    /* width: 200px;
+    height: auto; */
+    /* grid-template-rows: 2/3; */
+    padding: 2%;
+}
+.vid2{
+    /* width: 200px;
+    height: auto; */
+    padding: 2%;
+}
+.mediaEdits{
+    width: 250px;
+    height: 170px;
+    padding: 20px;
+    border-radius: 15%;
+    
+}
+.fourthDiv{
+   text-align: center;
+   padding-top: 60px;
+   padding-bottom: 100px;
+   font-family: 'Open Sans', sans-serif;
+   /* background-color: #73605B; */
+   /* background-image: url("../img/Canva - Red Board.jpg"); */
+   background-image: url("../img/overlay.png"), url("../img/header.svg"),linear-gradient(130deg,#D19684 10%, #D1A484 30%, #FFE5DB 80%);
+   color: white;
+    
+}
+
+input{
+    margin-right: 4%;
+    font-size: small;
+}
+div.firstDiv ul li:hover{
+background-color: #D09683;
+color: #363237;
+cursor: pointer;
+
+}
+.booking{
+    margin-bottom: 60px;
+}
+.mediaHandle{
+width: 40px;
+height: 30px;
+padding: 10px;
+}
+.insta{
+    width: 30px;
+}
+.twit{
+    width: 40px;
+}
+.phone{
+ width: 35px;
+}
+.snap{
+    width: 48px;
+    height: 35px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 33% 10% 10% 10% 10% 27%;
+    text-align: center;
+   
+}
+.rights{
+    text-align: start;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.connect{
+    color: black;
+    display: block;
+    text-align: center;
+}
+.aboutSpeech{
+ color: white;   
+}
+.randomWhite{
+    background-color: white;
+    padding: 3%;
+}
+.firstHead{
+    font-size: 40px;
+    position: relative;
+}
+.secondInput{
+    border-radius: 5%;
+    border: #89BAD9 solid 2px;
+    /* background-color: #89BAD9; */
+    opacity: 0.9;
+}
+.firstInput{
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+    border: #89BAD9 solid 2px;
+}
